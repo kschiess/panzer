@@ -16,4 +16,8 @@ This is an experiment to try and see what the minimal amount of code for such
 a server is today. My plan is to develop this further into something almost
 unicorn-like, without inflating code size. 
 
+[1] github.com/kschiess/parslet
+[2] github.com/postmodern/net-http-server
+[3] github.com/kschiess/cod
+
   
