@@ -1,0 +1,19 @@
+TLDR
+
+This is a proof of concept assembly of the following parts: 
+
+  * a parser written in parslet[1] for HTTP headers
+  * some glue code from net-http-server[2]
+  * a tcp server written using cod[3]
+  * rack
+  
+The example simple.{rb,ru} proves that these form a minimal rack webserver
+just like net-http-server or webrick. 
+
+WHY
+
+This is an experiment to try and see what the minimal amount of code for such
+a server is today. My plan is to develop this further into something almost
+unicorn-like, without inflating code size. 
+
+  

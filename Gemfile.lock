@@ -1,0 +1,26 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    blankslate (2.1.2.4)
+    cod (0.4.4)
+    net-http-server (0.2.1)
+      parslet (~> 1.0)
+    parslet (1.4.0)
+      blankslate (~> 2.0)
+    rack (1.4.1)
+    rack-protection (1.2.0)
+      rack
+    sinatra (1.3.2)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    tilt (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cod
+  net-http-server
+  rack
+  sinatra
